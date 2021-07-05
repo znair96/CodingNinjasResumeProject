@@ -291,9 +291,56 @@ img{
     background-color: rgba(195,195,195,0.2);
     box-shadow: 0 0 2px 2px rgb(195 220 231);
 }
-/* .details{
-    color:white;
+.common-section-for-we-ed{
+    position: relative;
+    /* border: 2px solid black; */
+    width: 80%;
+    margin: auto;
+    height:100vh;
+    
 }
-.detail-contact li{
-    display: block;
-} */
+.sub-section-we-ed::after{
+    position:absolute;
+    content:'\2022';
+    color: gray;
+    font-size: 2rem;
+    left:49.5%;
+    z-index: 1;
+    margin-top: -12rem;
+}
+.sub-section-we-ed{
+    width:400px;
+    height:150px;
+    /* border: 2px solid black; */
+    margin-left: 15%;
+    margin-top: 1rem;
+    margin-bottom:1rem ;
+    text-align: justify;
+}
+.sub-section-we-ed:nth-child(2n+1){
+    margin-left: 55%;
+    margin-top:2rem;
+    /* position: relative; */
+    /* right:50%; */
+}
+.horizontal-line{
+    position: absolute;
+    height:52%;
+    width: 200px;
+    border:0;
+    border-left: 6px dotted cyan;
+    left:50%;
+    top:8%;
+    /* margin-left:1rem; */
+    /* margin-right:1rem; */
+}
+.horizontal-line i{
+    margin-left: -20px;
+    position: sticky;
+    font-size: 2rem;
+    color: darkblue;
+    top:60%;
+}
+.align-right{
+    text-align: right;
+}
